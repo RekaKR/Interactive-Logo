@@ -61,6 +61,18 @@ svg .m {
 svg .text:hover {
   fill: #301f13;
 }
+svg .beer:hover .b {
+  fill: #f0a800;
+  fill: #F7EF8A;
+}
+svg .beer:hover .d {
+  fill: #ffd600;
+  fill: #E0AA3E;
+}
+svg .beer:hover .e {
+  fill: #8d5103;
+  fill: #AE8625;
+}
 svg .background:hover .a-a {
   fill: transparent;
 }
