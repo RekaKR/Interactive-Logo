@@ -7,8 +7,11 @@ svg {
   max-width: 750px;
   position: fixed;
   top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
-svg .a {
+svg .a,
+svg .a-a {
   fill: #d8d8d8;
 }
 svg .b {
@@ -55,21 +58,6 @@ svg .l {
 svg .m {
   fill: #f0f0c0;
 }
-svg .text:hover {
-  fill: #301f13;
-}
-svg .beer:hover .b {
-  fill: #f0a800;
-  fill: #F7EF8A;
-}
-svg .beer:hover .d {
-  fill: #ffd600;
-  fill: #E0AA3E;
-}
-svg .beer:hover .e {
-  fill: #8d5103;
-  fill: #AE8625;
-}
 svg .background:hover .a-a {
   fill: transparent;
 }
@@ -79,7 +67,22 @@ svg .background:hover .a {
 svg .background:hover .b {
   fill: #d8d8d8;
 }
-svg .background:hover .d {
+svg .background:hover .c {
+  fill: #301f13;
+}
+svg .beer:hover .b {
+  fill: #f0a800;
+  fill: #F7EF8A;
+}
+svg .beer:hover .c {
+  fill: #ffd600;
+  fill: #E0AA3E;
+}
+svg .beer:hover .e {
+  fill: #8d5103;
+  fill: #AE8625;
+}
+svg .text:hover {
   fill: #301f13;
 }
 

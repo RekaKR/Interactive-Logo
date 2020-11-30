@@ -73,30 +73,6 @@ svg {
     fill: #f0f0c0;
   }
 
-  .text:hover {
-    fill: #301f13;
-  }
-
-  .beer {
-    &:hover .b {
-      fill: rgb(240, 168, 0);
-      fill: #F7EF8A;
-      //fill: #040504;
-    }
-
-    &:hover .d {
-      fill: rgb(255, 214, 0);
-      fill: #E0AA3E;
-      //fill: #13100E;
-    }
-
-    &:hover .e {
-      fill: rgb(141, 81, 3);
-      fill: #AE8625;
-      //fill: #272723;
-    }
-  }
-
   .background {
     &:hover .a-a {
       fill: transparent;
@@ -113,5 +89,26 @@ svg {
     &:hover .d {
       fill: #301f13;
     }
+  }
+
+  .beer {
+    &:hover .b {
+      fill: rgb(240, 168, 0);
+      fill: #F7EF8A;
+    }
+
+    &:hover .d {
+      fill: rgb(255, 214, 0);
+      fill: #E0AA3E;
+    }
+
+    &:hover .e {
+      fill: rgb(141, 81, 3);
+      fill: #AE8625;
+    }
+  }
+
+  .text:hover {
+    fill: #301f13;
   }
 }
