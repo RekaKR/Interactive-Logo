@@ -3,65 +3,99 @@
   padding: 0;
 }
 
+svg {
+  max-width: 800px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 
-.a {
-  fill: #d8d8d8;
+  .a,
+  .a-a {
+    fill: #d8d8d8;
+  }
+
+  .b {
+    fill: #f0a800;
+  }
+
+  .c {
+    fill: #301f13;
+  }
+
+  .d {
+    fill: #ffd600;
+  }
+
+  .e {
+    fill: #8d5103;
+  }
+
+  .f {
+    fill: #fafafa;
+  }
+
+  .g {
+    fill: #cecece;
+  }
+
+  .h {
+    fill: #c4c4c4;
+  }
+
+  .i {
+    fill: #bababa;
+  }
+
+  .j, .k, .l {
+    fill: none;
+    stroke: #000;
+  }
+
+  .j, .k {
+    stroke-miterlimit: 10;
+  }
+
+  .j {
+    stroke-width: 3px;
+  }
+
+  .k, .l {
+    stroke-linecap: round;
+    stroke-width: 2px;
+  }
+
+  .l {
+    stroke-linejoin: round;
+  }
+
+  .m {
+    fill: #f0f0c0;
+  }
+
+  .text:hover {
+    fill: #301f13;
+  }
+
+  .background {
+    &:hover .a-a {
+      fill: transparent;
+    }
+
+    &:hover .a {
+      fill: #f0a800;
+    }
+  
+    &:hover .b {
+      fill: #d8d8d8;
+    }
+
+    &:hover .d {
+      fill: #301f13;
+    }
+  }
 }
 
-.b {
-  fill: #f0a800;
-}
-
-.c {
-  fill: #301f13;
-}
-
-.d {
-  fill: #ffd600;
-}
-
-.e {
-  fill: #8d5103;
-}
-
-.f {
-  fill: #fafafa;
-}
-
-.g {
-  fill: #cecece;
-}
-
-.h {
-  fill: #c4c4c4;
-}
-
-.i {
-  fill: #bababa;
-}
-
-.j, .k, .l {
-  fill: none;
-  stroke: #000;
-}
-
-.j, .k {
-  stroke-miterlimit: 10;
-}
-
-.j {
-  stroke-width: 3px;
-}
-
-.k, .l {
-  stroke-linecap: round;
-  stroke-width: 2px;
-}
-
-.l {
-  stroke-linejoin: round;
-}
-
-.m {
-  fill: #f0f0c0;
-}
+/*
+When we hover the mouse over the pint of beer, its background changes color
+*/

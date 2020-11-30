@@ -3,66 +3,79 @@
   padding: 0;
 }
 
-.a {
+svg {
+  max-width: 800px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+svg .a,
+svg .a-a {
   fill: #d8d8d8;
 }
-
-.b {
+svg .b {
   fill: #f0a800;
 }
-
-.c {
+svg .c {
   fill: #301f13;
 }
-
-.d {
+svg .d {
   fill: #ffd600;
 }
-
-.e {
+svg .e {
   fill: #8d5103;
 }
-
-.f {
+svg .f {
   fill: #fafafa;
 }
-
-.g {
+svg .g {
   fill: #cecece;
 }
-
-.h {
+svg .h {
   fill: #c4c4c4;
 }
-
-.i {
+svg .i {
   fill: #bababa;
 }
-
-.j, .k, .l {
+svg .j, svg .k, svg .l {
   fill: none;
   stroke: #000;
 }
-
-.j, .k {
+svg .j, svg .k {
   stroke-miterlimit: 10;
 }
-
-.j {
+svg .j {
   stroke-width: 3px;
 }
-
-.k, .l {
+svg .k, svg .l {
   stroke-linecap: round;
   stroke-width: 2px;
 }
-
-.l {
+svg .l {
   stroke-linejoin: round;
 }
-
-.m {
+svg .m {
   fill: #f0f0c0;
 }
+svg .text:hover {
+  fill: #301f13;
+}
+svg .background:hover .a-a {
+  fill: transparent;
+}
+svg .background:hover .a {
+  fill: #f0a800;
+}
+svg .background:hover .b {
+  fill: #d8d8d8;
+}
+svg .background:hover .d {
+  fill: #301f13;
+}
+
+/*
+When we hover the mouse over the pint of beer, its background changes color
+*/
 
 /*# sourceMappingURL=style.css.map */
