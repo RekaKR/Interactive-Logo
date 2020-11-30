@@ -1,18 +1,68 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="../css/style.css">
-  <title>Logo.html</title>
-</head>
-
-<body>
-
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
   <defs>
+    <style>
+      .a {
+        fill: #d8d8d8;
+      }
+
+      .b {
+        fill: #f0a800;
+      }
+
+      .c {
+        fill: #301f13;
+      }
+
+      .d {
+        fill: #ffd600;
+      }
+
+      .e {
+        fill: #8d5103;
+      }
+
+      .f {
+        fill: #fafafa;
+      }
+
+      .g {
+        fill: #cecece;
+      }
+
+      .h {
+        fill: #c4c4c4;
+      }
+
+      .i {
+        fill: #bababa;
+      }
+
+      .j, .k, .l {
+        fill: none;
+        stroke: #000;
+      }
+
+      .j, .k {
+        stroke-miterlimit: 10;
+      }
+
+      .j {
+        stroke-width: 3px;
+      }
+
+      .k, .l {
+        stroke-linecap: round;
+        stroke-width: 2px;
+      }
+
+      .l {
+        stroke-linejoin: round;
+      }
+
+      .m {
+        fill: #f0f0c0;
+      }
+    </style>
   </defs>
   <g>
     <path class="a" d="M500,772.36a272.35,272.35,0,1,1,192.59-79.77A270.59,270.59,0,0,1,500,772.36Z"/>
@@ -105,18 +155,3 @@
     <path d="M768.72,530V507.53l1.21,5-19.83-39h15.5L774,491.8l3.42,9h-1.9l2.89-9,8.51-18.24h15l-20,39.06,1.29-5.09V530Z"/>
   </g>
 </svg>
-
-
-</body>
-
-</html>
-
-
-<!--
-When we hover the mouse over the Beer company text, it changes color
-When we hover the mouse overt the pint's background, it changes color
-When we hover the mouse over the pint of beer, its background changes color
-
-Save the SVG file optimised if you want to use it as inline SVG in Web.
-Don't be afraid to modify the SVG by hand in a text editor or in an IDE.
--->

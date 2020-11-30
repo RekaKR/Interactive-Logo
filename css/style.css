@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.a {
+  fill: #d8d8d8;
+}
+
+.b {
+  fill: #f0a800;
+}
+
+.c {
+  fill: #301f13;
+}
+
+.d {
+  fill: #ffd600;
+}
+
+.e {
+  fill: #8d5103;
+}
+
+.f {
+  fill: #fafafa;
+}
+
+.g {
+  fill: #cecece;
+}
+
+.h {
+  fill: #c4c4c4;
+}
+
+.i {
+  fill: #bababa;
+}
+
+.j, .k, .l {
+  fill: none;
+  stroke: #000;
+}
+
+.j, .k {
+  stroke-miterlimit: 10;
+}
+
+.j {
+  stroke-width: 3px;
+}
+
+.k, .l {
+  stroke-linecap: round;
+  stroke-width: 2px;
+}
+
+.l {
+  stroke-linejoin: round;
+}
+
+.m {
+  fill: #f0f0c0;
+}
+
+/*# sourceMappingURL=style.css.map */
