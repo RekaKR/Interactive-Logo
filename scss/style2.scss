@@ -4,14 +4,11 @@
 }
 
 svg {
-  max-width: 800px;
+  max-width: 750px;
   position: fixed;
   top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-
-  .a,
-  .a-a {
+ 
+  .a {
     fill: #d8d8d8;
   }
 
@@ -20,11 +17,11 @@ svg {
   }
 
   .c {
-    fill: #301f13;
+    fill: #ffd600;
   }
 
   .d {
-    fill: #ffd600;
+    fill: #301f13;
   }
 
   .e {

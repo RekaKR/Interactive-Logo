@@ -4,24 +4,21 @@
 }
 
 svg {
-  max-width: 800px;
+  max-width: 750px;
   position: fixed;
   top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
-svg .a,
-svg .a-a {
+svg .a {
   fill: #d8d8d8;
 }
 svg .b {
   fill: #f0a800;
 }
 svg .c {
-  fill: #301f13;
+  fill: #ffd600;
 }
 svg .d {
-  fill: #ffd600;
+  fill: #301f13;
 }
 svg .e {
   fill: #8d5103;
@@ -86,4 +83,4 @@ svg .background:hover .d {
   fill: #301f13;
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style2.css.map */
